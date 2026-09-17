@@ -1,4 +1,9 @@
 def sequence_del(my_str):
+    """
+
+    :param my_str: Any string
+    :return: A new string with consecutive duplicates removed.
+    """
     if not my_str:
         return ""
 
